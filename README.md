@@ -26,7 +26,7 @@ Install drltrace
 choco install drmemory
 ```
 
-Copy the repository files into any of `ghidra_scripts` directories, open the Script Manager and search for emerald and enable In Tool option:
+Copy the repository files into any of `ghidra_scripts` directories, open the Script Manager and search for savvy and enable In Tool option:
 
 ![image](https://user-images.githubusercontent.com/22657154/99777175-99897a80-2b1a-11eb-8823-5c86376752bb.png)
 
