@@ -36,7 +36,7 @@ BEGIN
         set api refrence
     END IF
 END WHILE
-applay function data types
+apply function data types
 """
 
 
