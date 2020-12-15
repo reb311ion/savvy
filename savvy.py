@@ -75,7 +75,7 @@ def create_new_section(name=".diat", description="Dynamically resolve Imports", 
     command = AddInitializedMemoryBlockCmd(name, description, description, offset, length, True, True, True, False, fill_with_byte, False)
     currentProgram.startTransaction(command.getName())
     command.applyTo(currentProgram)
-
+    currentProgram.endTransaction(transaction_id, True)
 
 def add_api_function(name):
     global current_offset
